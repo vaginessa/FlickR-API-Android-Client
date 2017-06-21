@@ -13,4 +13,3 @@ Data is saved using [Realm](https://github.com/realm/realm-java)
 
 
 ![Preview app](https://image.ibb.co/dE0Sv5/Screenshot_2017_06_21_16_58_07.png)
-![Preview app](https://image.ibb.co/jJunv5/Screenshot_2017_06_21_16_58_00.png)
