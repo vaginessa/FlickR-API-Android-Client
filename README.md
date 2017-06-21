@@ -10,3 +10,7 @@ Supports the following features:
 - Save image to the System Gallery
 - Share image by email
 - Open image in system browser
+
+
+![Preview app](https://image.ibb.co/dE0Sv5/Screenshot_2017_06_21_16_58_07.png)
+![Preview app](https://image.ibb.co/jJunv5/Screenshot_2017_06_21_16_58_00.png)
