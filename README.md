@@ -6,6 +6,7 @@ Data is saved using [Realm](https://github.com/realm/realm-java)
 
 #Supports the following features:
 - Search for images by tag
+- Image caching using Ion
 - Order by date_taken or date_published
 - Save image to the System Gallery
 - Share image by email
