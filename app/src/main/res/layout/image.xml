@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center">
+
+    <com.daimajia.androidviewhover.BlurLayout
+        android:id="@+id/blurContainer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <com.ntwired3.flickrclient.views.SquaredImageView
+            android:id="@+id/image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:scaleType="fitCenter" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="#80000000"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:background="#80000000"
+                android:padding="5dp"
+                android:text="title"
+                android:textColor="#ffffff"
+                android:textSize="14sp"
+                android:typeface="monospace"></TextView>
+
+            <TextView
+                android:id="@+id/date_published"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="date"
+                android:textColor="#ffffff"
+                android:textSize="10sp"
+                android:typeface="monospace"></TextView>
+        </LinearLayout>
+    </com.daimajia.androidviewhover.BlurLayout>
+</RelativeLayout>
