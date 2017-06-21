@@ -1,10 +1,10 @@
 # FlickR-API-Android-Client
 Client that downloads images from the public API and presents them as a gallery.
 
-Data obtained using Ion & Gson.
-Data is saved using Realm
+Data obtained using [Ion](https://github.com/koush/ion) & [Gson](https://github.com/google/gson).
+Data is saved using [Realm](https://github.com/realm/realm-java)
 
-Supports the following features:
+#Supports the following features:
 - Search for images by tag
 - Order by date_taken or date_published
 - Save image to the System Gallery
